@@ -1,0 +1,39 @@
+.ticket-list-page { max-width: 1100px; }
+
+.table-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: auto;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.action-btns { display: flex; gap: 0.4rem; }
+
+.action-btn {
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+  border: 1px solid transparent;
+  font-family: var(--font-body);
+}
+
+.action-btn:hover { opacity: 0.8; transform: translateY(-1px); }
+
+.action-view   { background: var(--accent-glow); color: var(--accent); border-color: var(--accent); }
+.action-edit   { background: var(--yellow-dim);  color: var(--yellow); border-color: var(--yellow); }
+.action-delete { background: var(--red-dim);     color: var(--red);    border-color: var(--red); }
+
+.empty-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 4rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.empty-icon { font-size: 2.5rem; color: var(--border-light); margin-bottom: 1rem; }

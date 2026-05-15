@@ -1,0 +1,30 @@
+# Node
+hdms/frontend/node_modules/
+hdms/frontend/.env.local
+hdms/frontend/.env.development.local
+hdms/frontend/.env.test.local
+hdms/frontend/.env.production.local
+hdms/frontend/npm-debug.log*
+hdms/frontend/yarn-debug.log*
+hdms/frontend/yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+hdms/backend/__pycache__/
+hdms/backend/*.egg-info/
+.venv/
+venv/
+env/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
