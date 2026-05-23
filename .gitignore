@@ -20,10 +20,11 @@ hdms/backend/*.egg-info/
 venv/
 env/
 
-# Database
+# Database — keep reporting.db (ETL output), ignore operational DBs
 *.db
 *.sqlite
 *.sqlite3
+!reporting.db
 
 # OS
 .DS_Store
