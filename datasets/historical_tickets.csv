@@ -1,0 +1,226 @@
+ticket_id,employee_name,department,issue_category,description,priority,status,created_date,resolved_date
+1,Alice Johnson,IT,VPN Issue,VPN connection fails when accessing from home network,Critical,Open,2024-05-03,
+2,Bob Smith,HR,Password Reset,Account locked after multiple failed login attempts,High,In Progress,2024-05-04,
+3,Carol Williams,Finance,Software Installation,Python development environment setup required,High,Resolved,2024-05-05,2024-05-09
+4,David Brown,Engineering,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Resolved,2024-05-06,2024-05-11
+5,Emma Davis,Marketing,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2024-05-07,2024-05-13
+6,Frank Miller,Admin,Network Connectivity,Cannot reach internal file server from workstation,Medium,Closed,2024-05-08,2024-05-15
+7,Grace Wilson,Operations,Hardware Request,Requesting portable SSD for data backup,Low,Resolved,2024-05-09,2024-05-17
+8,Henry Moore,Legal,VPN Issue,VPN connection fails when accessing from home network,Low,Closed,2024-05-10,2024-05-19
+9,Iris Taylor,Sales,Password Reset,Account locked after multiple failed login attempts,Critical,Open,2024-05-11,
+10,Jack Anderson,Support,Software Installation,Python development environment setup required,High,In Progress,2024-05-12,
+11,Karen Thomas,IT,Laptop Issue,Laptop overheating and shutting down unexpectedly,High,Resolved,2024-05-13,2024-05-25
+12,Liam Jackson,HR,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2024-05-14,2024-05-27
+13,Maria White,Finance,Network Connectivity,Cannot reach internal file server from workstation,Medium,Resolved,2024-05-15,2024-05-29
+14,Nathan Harris,Engineering,Hardware Request,Requesting portable SSD for data backup,Medium,Closed,2024-05-16,2024-05-31
+15,Olivia Martin,Marketing,VPN Issue,VPN connection fails when accessing from home network,Low,Resolved,2024-05-17,2024-06-02
+16,Peter Thompson,Admin,Password Reset,Account locked after multiple failed login attempts,Low,Closed,2024-05-18,2024-06-04
+17,Quinn Garcia,Operations,Software Installation,Python development environment setup required,Critical,Open,2024-05-19,
+18,Rachel Martinez,Legal,Laptop Issue,Laptop overheating and shutting down unexpectedly,High,In Progress,2024-05-20,
+19,Steve Robinson,Sales,Email Access,Need access to shared mailbox for department communications,High,Resolved,2024-06-02,2024-06-22
+20,Tara Clark,Support,Network Connectivity,Cannot reach internal file server from workstation,Medium,Resolved,2024-06-03,2024-06-24
+21,Uma Rodriguez,IT,Hardware Request,Requesting portable SSD for data backup,Medium,Resolved,2024-06-04,2024-06-26
+22,Victor Lewis,HR,VPN Issue,VPN connection fails when accessing from home network,Medium,Closed,2024-06-05,2024-06-28
+23,Wendy Lee,Engineering,Password Reset,Account locked after multiple failed login attempts,Low,Resolved,2024-06-06,2024-06-08
+24,Xavier Walker,Finance,Software Installation,Python development environment setup required,Low,Closed,2024-06-07,2024-06-10
+25,Yara Hall,Marketing,Laptop Issue,Laptop overheating and shutting down unexpectedly,Critical,Open,2024-06-08,
+26,Zachary Allen,Admin,Email Access,Need access to shared mailbox for department communications,High,In Progress,2024-06-09,
+27,Amy Young,IT,Network Connectivity,Cannot reach internal file server from workstation,High,Resolved,2024-06-10,2024-06-16
+28,Brian King,Operations,Hardware Request,Requesting portable SSD for data backup,Medium,Resolved,2024-06-11,2024-06-18
+29,Catherine Wright,HR,VPN Issue,VPN connection fails when accessing from home network,Medium,Resolved,2024-06-12,2024-06-20
+30,Daniel Scott,Engineering,Password Reset,Account locked after multiple failed login attempts,Medium,Closed,2024-06-13,2024-06-22
+31,Alice Johnson,IT,Software Installation,Python development environment setup required,Low,Resolved,2024-06-14,2024-06-24
+32,Bob Smith,HR,Laptop Issue,Laptop overheating and shutting down unexpectedly,Low,Closed,2024-06-15,2024-06-26
+33,Carol Williams,Finance,Email Access,Need access to shared mailbox for department communications,Critical,Open,2024-06-16,
+34,David Brown,Engineering,Network Connectivity,Cannot reach internal file server from workstation,High,In Progress,2024-06-17,
+35,Emma Davis,Marketing,Hardware Request,Requesting portable SSD for data backup,High,Resolved,2024-06-18,2024-07-02
+36,Frank Miller,Admin,VPN Issue,VPN connection fails when accessing from home network,Medium,Resolved,2024-06-19,2024-07-04
+37,Grace Wilson,Operations,Password Reset,Account locked after multiple failed login attempts,Medium,Resolved,2024-07-02,2024-07-18
+38,Henry Moore,Legal,Software Installation,Python development environment setup required,Medium,Closed,2024-07-03,2024-07-20
+39,Iris Taylor,Sales,Laptop Issue,Laptop overheating and shutting down unexpectedly,Low,Resolved,2024-07-04,2024-07-22
+40,Jack Anderson,Support,Email Access,Need access to shared mailbox for department communications,Low,Closed,2024-07-05,2024-07-24
+41,Karen Thomas,IT,Network Connectivity,Cannot reach internal file server from workstation,Critical,Open,2024-07-06,
+42,Liam Jackson,HR,Hardware Request,Requesting portable SSD for data backup,High,In Progress,2024-07-07,
+43,Maria White,Finance,VPN Issue,VPN connection fails when accessing from home network,High,Resolved,2024-07-08,2024-07-30
+44,Nathan Harris,Engineering,Password Reset,Account locked after multiple failed login attempts,Medium,Resolved,2024-07-09,2024-08-01
+45,Olivia Martin,Marketing,Software Installation,Python development environment setup required,Medium,Resolved,2024-07-10,2024-07-12
+46,Peter Thompson,Admin,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Closed,2024-07-11,2024-07-14
+47,Quinn Garcia,Operations,Email Access,Need access to shared mailbox for department communications,Low,Resolved,2024-07-12,2024-07-16
+48,Rachel Martinez,Legal,Network Connectivity,Cannot reach internal file server from workstation,Low,Closed,2024-07-13,2024-07-18
+49,Steve Robinson,Sales,Hardware Request,Requesting portable SSD for data backup,Critical,Open,2024-07-14,
+50,Tara Clark,Support,VPN Issue,VPN connection fails when accessing from home network,High,In Progress,2024-07-15,
+51,Uma Rodriguez,IT,Password Reset,Account locked after multiple failed login attempts,High,Resolved,2024-07-16,2024-07-24
+52,Victor Lewis,HR,Software Installation,Python development environment setup required,Medium,Resolved,2024-07-17,2024-07-26
+53,Wendy Lee,Engineering,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Resolved,2024-07-18,2024-07-28
+54,Xavier Walker,Finance,Email Access,Need access to shared mailbox for department communications,Medium,Closed,2024-07-19,2024-07-30
+55,Yara Hall,Marketing,Network Connectivity,Cannot reach internal file server from workstation,Low,Resolved,2024-08-01,2024-08-13
+56,Zachary Allen,Admin,Hardware Request,Requesting portable SSD for data backup,Low,Closed,2024-08-02,2024-08-15
+57,Amy Young,IT,VPN Issue,VPN connection fails when accessing from home network,Critical,Open,2024-08-03,
+58,Brian King,Operations,Password Reset,Account locked after multiple failed login attempts,High,In Progress,2024-08-04,
+59,Catherine Wright,HR,Software Installation,Python development environment setup required,High,Resolved,2024-08-05,2024-08-21
+60,Daniel Scott,Engineering,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Resolved,2024-08-06,2024-08-23
+61,Alice Johnson,IT,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2024-08-07,2024-08-25
+62,Bob Smith,HR,Network Connectivity,Cannot reach internal file server from workstation,Medium,Closed,2024-08-08,2024-08-27
+63,Carol Williams,Finance,Hardware Request,Requesting portable SSD for data backup,Low,Resolved,2024-08-09,2024-08-29
+64,David Brown,Engineering,VPN Issue,VPN connection fails when accessing from home network,Low,Closed,2024-08-10,2024-08-31
+65,Emma Davis,Marketing,Password Reset,Account locked after multiple failed login attempts,Critical,Open,2024-08-11,
+66,Frank Miller,Admin,Software Installation,Python development environment setup required,High,In Progress,2024-08-12,
+67,Grace Wilson,Operations,Laptop Issue,Laptop overheating and shutting down unexpectedly,High,Resolved,2024-08-13,2024-08-15
+68,Henry Moore,Legal,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2024-08-14,2024-08-17
+69,Iris Taylor,Sales,Network Connectivity,Cannot reach internal file server from workstation,Medium,Resolved,2024-08-15,2024-08-19
+70,Jack Anderson,Support,Hardware Request,Requesting portable SSD for data backup,Medium,Closed,2024-08-16,2024-08-21
+71,Karen Thomas,IT,VPN Issue,VPN connection fails when accessing from home network,Low,Resolved,2024-08-17,2024-08-23
+72,Liam Jackson,HR,Password Reset,Account locked after multiple failed login attempts,Low,Closed,2024-08-18,2024-08-25
+73,Maria White,Finance,Software Installation,Python development environment setup required,Critical,Open,2024-08-31,
+74,Nathan Harris,Engineering,Laptop Issue,Laptop overheating and shutting down unexpectedly,High,In Progress,2024-09-01,
+75,Olivia Martin,Marketing,Email Access,Need access to shared mailbox for department communications,High,Resolved,2024-09-02,2024-09-12
+76,Peter Thompson,Admin,Network Connectivity,Cannot reach internal file server from workstation,Medium,Resolved,2024-09-03,2024-09-14
+77,Quinn Garcia,Operations,Hardware Request,Requesting portable SSD for data backup,Medium,Resolved,2024-09-04,2024-09-16
+78,Rachel Martinez,Legal,VPN Issue,VPN connection fails when accessing from home network,Medium,Closed,2024-09-05,2024-09-18
+79,Steve Robinson,Sales,Password Reset,Account locked after multiple failed login attempts,Low,Resolved,2024-09-06,2024-09-20
+80,Tara Clark,Support,Software Installation,Python development environment setup required,Low,Closed,2024-09-07,2024-09-22
+81,Uma Rodriguez,IT,Laptop Issue,Laptop overheating and shutting down unexpectedly,Critical,Open,2024-09-08,
+82,Victor Lewis,HR,Email Access,Need access to shared mailbox for department communications,High,In Progress,2024-09-09,
+83,Wendy Lee,Engineering,Network Connectivity,Cannot reach internal file server from workstation,High,Resolved,2024-09-10,2024-09-28
+84,Xavier Walker,Finance,Hardware Request,Requesting portable SSD for data backup,Medium,Resolved,2024-09-11,2024-09-30
+85,Yara Hall,Marketing,VPN Issue,VPN connection fails when accessing from home network,Medium,Resolved,2024-09-12,2024-10-02
+86,Zachary Allen,Admin,Password Reset,Account locked after multiple failed login attempts,Medium,Closed,2024-09-13,2024-10-04
+87,Amy Young,IT,Software Installation,Python development environment setup required,Low,Resolved,2024-09-14,2024-10-06
+88,Brian King,Operations,Laptop Issue,Laptop overheating and shutting down unexpectedly,Low,Closed,2024-09-15,2024-10-08
+89,Catherine Wright,HR,Email Access,Need access to shared mailbox for department communications,Critical,Open,2024-09-16,
+90,Daniel Scott,Engineering,Network Connectivity,Cannot reach internal file server from workstation,High,In Progress,2024-09-17,
+91,Alice Johnson,IT,Hardware Request,Requesting portable SSD for data backup,High,Resolved,2024-09-30,2024-10-04
+92,Bob Smith,HR,VPN Issue,VPN connection fails when accessing from home network,Medium,Resolved,2024-10-01,2024-10-06
+93,Carol Williams,Finance,Password Reset,Account locked after multiple failed login attempts,Medium,Resolved,2024-10-02,2024-10-08
+94,David Brown,Engineering,Software Installation,Python development environment setup required,Medium,Closed,2024-10-03,2024-10-10
+95,Emma Davis,Marketing,Laptop Issue,Laptop overheating and shutting down unexpectedly,Low,Resolved,2024-10-04,2024-10-12
+96,Frank Miller,Admin,Email Access,Need access to shared mailbox for department communications,Low,Closed,2024-10-05,2024-10-14
+97,Grace Wilson,Operations,Network Connectivity,Cannot reach internal file server from workstation,Critical,Open,2024-10-06,
+98,Henry Moore,Legal,Hardware Request,Requesting portable SSD for data backup,High,In Progress,2024-10-07,
+99,Iris Taylor,Sales,VPN Issue,VPN connection fails when accessing from home network,High,Resolved,2024-10-08,2024-10-20
+100,Jack Anderson,Support,Password Reset,Account locked after multiple failed login attempts,Medium,Resolved,2024-10-09,2024-10-22
+101,Karen Thomas,IT,Software Installation,Python development environment setup required,Medium,Resolved,2024-10-10,2024-10-24
+102,Liam Jackson,HR,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Closed,2024-10-11,2024-10-26
+103,Maria White,Finance,Email Access,Need access to shared mailbox for department communications,Low,Resolved,2024-10-12,2024-10-28
+104,Nathan Harris,Engineering,Network Connectivity,Cannot reach internal file server from workstation,Low,Closed,2024-10-13,2024-10-30
+105,Olivia Martin,Marketing,Hardware Request,Requesting portable SSD for data backup,Critical,Open,2024-10-14,
+106,Peter Thompson,Admin,VPN Issue,VPN connection fails when accessing from home network,High,In Progress,2024-10-15,
+107,Quinn Garcia,Operations,Password Reset,Account locked after multiple failed login attempts,High,Resolved,2024-10-16,2024-11-05
+108,Rachel Martinez,Legal,Software Installation,Python development environment setup required,Medium,Resolved,2024-10-17,2024-11-07
+109,Steve Robinson,Sales,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Resolved,2024-10-30,2024-11-21
+110,Tara Clark,Support,Email Access,Need access to shared mailbox for department communications,Medium,Closed,2024-10-31,2024-11-23
+111,Uma Rodriguez,IT,Network Connectivity,Cannot reach internal file server from workstation,Low,Resolved,2024-11-01,2024-11-03
+112,Victor Lewis,HR,Hardware Request,Requesting portable SSD for data backup,Low,Closed,2024-11-02,2024-11-05
+113,Wendy Lee,Engineering,VPN Issue,VPN connection fails when accessing from home network,Critical,Open,2024-11-03,
+114,Xavier Walker,Finance,Password Reset,Account locked after multiple failed login attempts,High,In Progress,2024-11-04,
+115,Yara Hall,Marketing,Software Installation,Python development environment setup required,High,Resolved,2024-11-05,2024-11-11
+116,Zachary Allen,Admin,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Resolved,2024-11-06,2024-11-13
+117,Amy Young,IT,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2024-11-07,2024-11-15
+118,Brian King,Operations,Network Connectivity,Cannot reach internal file server from workstation,Medium,Closed,2024-11-08,2024-11-17
+119,Catherine Wright,HR,Hardware Request,Requesting portable SSD for data backup,Low,Resolved,2024-11-09,2024-11-19
+120,Daniel Scott,Engineering,VPN Issue,VPN connection fails when accessing from home network,Low,Closed,2024-11-10,2024-11-21
+121,Alice Johnson,IT,Password Reset,Account locked after multiple failed login attempts,Critical,Open,2024-11-11,
+122,Bob Smith,HR,Software Installation,Python development environment setup required,High,In Progress,2024-11-12,
+123,Carol Williams,Finance,Laptop Issue,Laptop overheating and shutting down unexpectedly,High,Resolved,2024-11-13,2024-11-27
+124,David Brown,Engineering,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2024-11-14,2024-11-29
+125,Emma Davis,Marketing,Network Connectivity,Cannot reach internal file server from workstation,Medium,Resolved,2024-11-15,2024-12-01
+126,Frank Miller,Admin,Hardware Request,Requesting portable SSD for data backup,Medium,Closed,2024-11-16,2024-12-03
+127,Grace Wilson,Operations,VPN Issue,VPN connection fails when accessing from home network,Low,Resolved,2024-11-29,2024-12-17
+128,Henry Moore,Legal,Password Reset,Account locked after multiple failed login attempts,Low,Closed,2024-11-30,2024-12-19
+129,Iris Taylor,Sales,Software Installation,Python development environment setup required,Critical,Open,2024-12-01,
+130,Jack Anderson,Support,Laptop Issue,Laptop overheating and shutting down unexpectedly,High,In Progress,2024-12-02,
+131,Karen Thomas,IT,Email Access,Need access to shared mailbox for department communications,High,Resolved,2024-12-03,2024-12-25
+132,Liam Jackson,HR,Network Connectivity,Cannot reach internal file server from workstation,Medium,Resolved,2024-12-04,2024-12-27
+133,Maria White,Finance,Hardware Request,Requesting portable SSD for data backup,Medium,Resolved,2024-12-05,2024-12-07
+134,Nathan Harris,Engineering,VPN Issue,VPN connection fails when accessing from home network,Medium,Closed,2024-12-06,2024-12-09
+135,Olivia Martin,Marketing,Password Reset,Account locked after multiple failed login attempts,Low,Resolved,2024-12-07,2024-12-11
+136,Peter Thompson,Admin,Software Installation,Python development environment setup required,Low,Closed,2024-12-08,2024-12-13
+137,Quinn Garcia,Operations,Laptop Issue,Laptop overheating and shutting down unexpectedly,Critical,Open,2024-12-09,
+138,Rachel Martinez,Legal,Email Access,Need access to shared mailbox for department communications,High,In Progress,2024-12-10,
+139,Steve Robinson,Sales,Network Connectivity,Cannot reach internal file server from workstation,High,Resolved,2024-12-11,2024-12-19
+140,Tara Clark,Support,Hardware Request,Requesting portable SSD for data backup,Medium,Resolved,2024-12-12,2024-12-21
+141,Uma Rodriguez,IT,VPN Issue,VPN connection fails when accessing from home network,Medium,Resolved,2024-12-13,2024-12-23
+142,Victor Lewis,HR,Password Reset,Account locked after multiple failed login attempts,Medium,Closed,2024-12-14,2024-12-25
+143,Wendy Lee,Engineering,Software Installation,Python development environment setup required,Low,Resolved,2024-12-15,2024-12-27
+144,Xavier Walker,Finance,Laptop Issue,Laptop overheating and shutting down unexpectedly,Low,Closed,2024-12-16,2024-12-29
+145,Yara Hall,Marketing,Email Access,Need access to shared mailbox for department communications,Critical,Open,2024-12-29,
+146,Zachary Allen,Admin,Network Connectivity,Cannot reach internal file server from workstation,High,In Progress,2024-12-30,
+147,Amy Young,IT,Hardware Request,Requesting portable SSD for data backup,High,Resolved,2024-12-31,2025-01-16
+148,Brian King,Operations,VPN Issue,VPN connection fails when accessing from home network,Medium,Resolved,2025-01-01,2025-01-18
+149,Catherine Wright,HR,Password Reset,Account locked after multiple failed login attempts,Medium,Resolved,2025-01-02,2025-01-20
+150,Daniel Scott,Engineering,Software Installation,Python development environment setup required,Medium,Closed,2025-01-03,2025-01-22
+151,Alice Johnson,IT,Laptop Issue,Laptop overheating and shutting down unexpectedly,Low,Resolved,2025-01-04,2025-01-24
+152,Bob Smith,HR,Email Access,Need access to shared mailbox for department communications,Low,Closed,2025-01-05,2025-01-26
+153,Carol Williams,Finance,Network Connectivity,Cannot reach internal file server from workstation,Critical,Open,2025-01-06,
+154,David Brown,Engineering,Hardware Request,Requesting portable SSD for data backup,High,In Progress,2025-01-07,
+155,Emma Davis,Marketing,VPN Issue,VPN connection fails when accessing from home network,High,Resolved,2025-01-08,2025-01-10
+156,Frank Miller,Admin,Password Reset,Account locked after multiple failed login attempts,Medium,Resolved,2025-01-09,2025-01-12
+157,Grace Wilson,Operations,Software Installation,Python development environment setup required,Medium,Resolved,2025-01-10,2025-01-14
+158,Henry Moore,Legal,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Closed,2025-01-11,2025-01-16
+159,Iris Taylor,Sales,Email Access,Need access to shared mailbox for department communications,Low,Resolved,2025-01-12,2025-01-18
+160,Jack Anderson,Support,Network Connectivity,Cannot reach internal file server from workstation,Low,Closed,2025-01-13,2025-01-20
+161,Karen Thomas,IT,Hardware Request,Requesting portable SSD for data backup,Critical,Open,2025-01-14,
+162,Liam Jackson,HR,VPN Issue,VPN connection fails when accessing from home network,High,In Progress,2025-01-15,
+163,Maria White,Finance,Password Reset,Account locked after multiple failed login attempts,High,Resolved,2025-01-28,2025-02-07
+164,Nathan Harris,Engineering,Software Installation,Python development environment setup required,Medium,Resolved,2025-01-29,2025-02-09
+165,Olivia Martin,Marketing,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Resolved,2025-01-30,2025-02-11
+166,Peter Thompson,Admin,Email Access,Need access to shared mailbox for department communications,Medium,Closed,2025-01-31,2025-02-13
+167,Quinn Garcia,Operations,Network Connectivity,Cannot reach internal file server from workstation,Low,Resolved,2025-02-01,2025-02-15
+168,Rachel Martinez,Legal,Hardware Request,Requesting portable SSD for data backup,Low,Closed,2025-02-02,2025-02-17
+169,Steve Robinson,Sales,VPN Issue,VPN connection fails when accessing from home network,Critical,Open,2025-02-03,
+170,Tara Clark,Support,Password Reset,Account locked after multiple failed login attempts,High,In Progress,2025-02-04,
+171,Uma Rodriguez,IT,Software Installation,Python development environment setup required,High,Resolved,2025-02-05,2025-02-23
+172,Victor Lewis,HR,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Resolved,2025-02-06,2025-02-25
+173,Wendy Lee,Engineering,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2025-02-07,2025-02-27
+174,Xavier Walker,Finance,Network Connectivity,Cannot reach internal file server from workstation,Medium,Closed,2025-02-08,2025-03-01
+175,Yara Hall,Marketing,Hardware Request,Requesting portable SSD for data backup,Low,Resolved,2025-02-09,2025-03-03
+176,Zachary Allen,Admin,VPN Issue,VPN connection fails when accessing from home network,Low,Closed,2025-02-10,2025-03-05
+177,Amy Young,IT,Password Reset,Account locked after multiple failed login attempts,Critical,Open,2025-02-11,
+178,Brian King,Operations,Software Installation,Python development environment setup required,High,In Progress,2025-02-12,
+179,Catherine Wright,HR,Laptop Issue,Laptop overheating and shutting down unexpectedly,High,Resolved,2025-02-13,2025-02-17
+180,Daniel Scott,Engineering,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2025-02-14,2025-02-19
+181,Alice Johnson,IT,Network Connectivity,Cannot reach internal file server from workstation,Medium,Resolved,2025-02-27,2025-03-05
+182,Bob Smith,HR,Hardware Request,Requesting portable SSD for data backup,Medium,Closed,2025-02-28,2025-03-07
+183,Carol Williams,Finance,VPN Issue,VPN connection fails when accessing from home network,Low,Resolved,2025-03-01,2025-03-09
+184,David Brown,Engineering,Password Reset,Account locked after multiple failed login attempts,Low,Closed,2025-03-02,2025-03-11
+185,Emma Davis,Marketing,Software Installation,Python development environment setup required,Critical,Open,2025-03-03,
+186,Frank Miller,Admin,Laptop Issue,Laptop overheating and shutting down unexpectedly,High,In Progress,2025-03-04,
+187,Grace Wilson,Operations,Email Access,Need access to shared mailbox for department communications,High,Resolved,2025-03-05,2025-03-17
+188,Henry Moore,Legal,Network Connectivity,Cannot reach internal file server from workstation,Medium,Resolved,2025-03-06,2025-03-19
+189,Iris Taylor,Sales,Hardware Request,Requesting portable SSD for data backup,Medium,Resolved,2025-03-07,2025-03-21
+190,Jack Anderson,Support,VPN Issue,VPN connection fails when accessing from home network,Medium,Closed,2025-03-08,2025-03-23
+191,Karen Thomas,IT,Password Reset,Account locked after multiple failed login attempts,Low,Resolved,2025-03-09,2025-03-25
+192,Liam Jackson,HR,Software Installation,Python development environment setup required,Low,Closed,2025-03-10,2025-03-27
+193,Maria White,Finance,Laptop Issue,Laptop overheating and shutting down unexpectedly,Critical,Open,2025-03-11,
+194,Nathan Harris,Engineering,Email Access,Need access to shared mailbox for department communications,High,In Progress,2025-03-12,
+195,Olivia Martin,Marketing,Network Connectivity,Cannot reach internal file server from workstation,High,Resolved,2025-03-13,2025-04-02
+196,Peter Thompson,Admin,Hardware Request,Requesting portable SSD for data backup,Medium,Resolved,2025-03-14,2025-04-04
+197,Quinn Garcia,Operations,VPN Issue,VPN connection fails when accessing from home network,Medium,Resolved,2025-03-15,2025-04-06
+198,Rachel Martinez,Legal,Password Reset,Account locked after multiple failed login attempts,Medium,Closed,2025-03-16,2025-04-08
+199,Steve Robinson,Sales,Software Installation,Python development environment setup required,Low,Resolved,2025-03-29,2025-03-31
+200,Tara Clark,Support,Laptop Issue,Laptop overheating and shutting down unexpectedly,Low,Closed,2025-03-30,2025-04-02
+201,Uma Rodriguez,IT,Email Access,Need access to shared mailbox for department communications,Critical,Open,2025-03-31,
+202,Victor Lewis,HR,Network Connectivity,Cannot reach internal file server from workstation,High,In Progress,2025-04-01,
+203,Wendy Lee,Engineering,Hardware Request,Requesting portable SSD for data backup,High,Resolved,2025-04-02,2025-04-08
+204,Xavier Walker,Finance,VPN Issue,VPN connection fails when accessing from home network,Medium,Resolved,2025-04-03,2025-04-10
+205,Yara Hall,Marketing,Password Reset,Account locked after multiple failed login attempts,Medium,Resolved,2025-04-04,2025-04-12
+206,Zachary Allen,Admin,Software Installation,Python development environment setup required,Medium,Closed,2025-04-05,2025-04-14
+207,Amy Young,IT,Laptop Issue,Laptop overheating and shutting down unexpectedly,Low,Resolved,2025-04-06,2025-04-16
+208,Brian King,Operations,Email Access,Need access to shared mailbox for department communications,Low,Closed,2025-04-07,2025-04-18
+209,Catherine Wright,HR,Network Connectivity,Cannot reach internal file server from workstation,Critical,Open,2025-04-08,
+210,Daniel Scott,Engineering,Hardware Request,Requesting portable SSD for data backup,High,In Progress,2025-04-09,
+211,Alice Johnson,IT,VPN Issue,VPN connection fails when accessing from home network,High,Resolved,2025-04-10,2025-04-24
+212,Bob Smith,HR,Password Reset,Account locked after multiple failed login attempts,Medium,Resolved,2025-04-11,2025-04-26
+213,Carol Williams,Finance,Software Installation,Python development environment setup required,Medium,Resolved,2025-04-12,2025-04-28
+214,David Brown,Engineering,Laptop Issue,Laptop overheating and shutting down unexpectedly,Medium,Closed,2025-04-13,2025-04-30
+215,Emma Davis,Marketing,Email Access,Need access to shared mailbox for department communications,Low,Resolved,2025-04-14,2025-05-02
+216,Frank Miller,Admin,Network Connectivity,Cannot reach internal file server from workstation,Low,Closed,2025-04-15,2025-05-04
+217,Grace Wilson,Operations,Hardware Request,Requesting portable SSD for data backup,Critical,Open,2025-04-28,
+218,Henry Moore,Legal,VPN Issue,VPN connection fails when accessing from home network,High,In Progress,2025-04-29,
+219,Iris Taylor,Sales,Password Reset,Account locked after multiple failed login attempts,High,Resolved,2025-04-30,2025-05-22
+220,Jack Anderson,Support,Software Installation,Python development environment setup required,Medium,Resolved,2025-05-01,2025-05-24
+5,Emma Davis,Marketing,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2024-05-07,2024-05-13
+12,Liam Jackson,HR,Email Access,Need access to shared mailbox for department communications,Medium,Resolved,2024-05-14,2024-05-27
+44,Nathan Harris,Engineering,Password Reset,Account locked after multiple failed login attempts,Medium,Resolved,2024-07-09,2024-08-01
+78,Rachel Martinez,Legal,VPN Issue,VPN connection fails when accessing from home network,Medium,Closed,2024-09-05,2024-09-18
+103,Maria White,Finance,Email Access,Need access to shared mailbox for department communications,Low,Resolved,2024-10-12,2024-10-28

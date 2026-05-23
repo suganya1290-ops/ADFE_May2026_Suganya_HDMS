@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { path: "/tickets", label: "All Tickets", icon: "≡" },
   { path: "/create", label: "New Ticket", icon: "+" },
   { path: "/search", label: "Search", icon: "◎" },
+  { path: "/analytics", label: "Analytics", icon: "◈" },
 ];
 
 export default function Navbar() {

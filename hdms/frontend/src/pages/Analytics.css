@@ -1,0 +1,210 @@
+.an-page {
+  padding: 2rem;
+  max-width: 1300px;
+}
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+.an-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.an-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+.an-etl-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.an-etl-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  flex-shrink: 0;
+}
+
+/* ── KPI Cards ───────────────────────────────────────────────────────────── */
+.an-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.an-stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 3px solid transparent;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  transition: transform 0.15s ease;
+}
+
+.an-stat-card:hover {
+  transform: translateY(-2px);
+}
+
+.an-stat-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+
+.an-stat-value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+/* ── Chart Rows ──────────────────────────────────────────────────────────── */
+.an-charts-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.an-chart-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.an-chart-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 1.25rem;
+}
+
+/* ── Status tiles ────────────────────────────────────────────────────────── */
+.an-status-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.an-status-tile {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  transition: transform 0.15s ease;
+}
+
+.an-status-tile:hover {
+  transform: translateY(-2px);
+}
+
+.an-status-count {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.an-status-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+}
+
+/* ── Empty / error states ────────────────────────────────────────────────── */
+.an-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 2rem;
+}
+
+.an-muted {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.an-error-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2.5rem 3rem;
+  text-align: center;
+  max-width: 480px;
+}
+
+.an-error-box strong {
+  display: block;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.an-error-box p {
+  color: var(--text-muted);
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+}
+
+.an-hint {
+  margin-top: 1rem !important;
+}
+
+.an-error-box code {
+  display: inline-block;
+  margin-top: 0.75rem;
+  background: #0f172a;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  color: #22c55e;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 1000px) {
+  .an-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .an-charts-row {
+    grid-template-columns: 1fr;
+  }
+
+  .an-status-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .an-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .an-status-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

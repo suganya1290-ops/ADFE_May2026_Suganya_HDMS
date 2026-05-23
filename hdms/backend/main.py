@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 import models
 from database import engine, get_db
 from routers import tickets
+from routers import analytics
 import crud
 import schemas
 
@@ -13,14 +14,15 @@ models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Helpdesk Ticket Management System API",
-    description="REST API for managing internal IT support tickets.",
-    version="1.0.0",
+    description="REST API for managing internal IT support tickets. Phase 2 adds ETL analytics.",
+    version="2.0.0",
 )
 
 # CORS Middleware — allow React dev server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000",
+                   "http://localhost:3001", "http://127.0.0.1:3001"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -28,6 +30,7 @@ app.add_middleware(
 
 # Register routers
 app.include_router(tickets.router)
+app.include_router(analytics.router)
 
 
 @app.get("/", tags=["Root"])

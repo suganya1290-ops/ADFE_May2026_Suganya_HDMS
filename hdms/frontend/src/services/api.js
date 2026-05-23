@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "http://localhost:8001";
 
 const api = axios.create({
   baseURL: BASE_URL,
@@ -28,6 +28,16 @@ export const ticketService = {
 
 export const dashboardService = {
   getStats: () => api.get("/dashboard"),
+};
+
+export const analyticsService = {
+  getSummary:              () => api.get("/analytics/summary"),
+  getCategoryDistribution: () => api.get("/analytics/category-distribution"),
+  getPriorityDistribution: () => api.get("/analytics/priority-distribution"),
+  getDepartmentDistribution: () => api.get("/analytics/department-distribution"),
+  getStatusDistribution:   () => api.get("/analytics/status-distribution"),
+  getResolutionTrends:     () => api.get("/analytics/resolution-trends"),
+  getEtlStatus:            () => api.get("/analytics/etl-status"),
 };
 
 export default api;

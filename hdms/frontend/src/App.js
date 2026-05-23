@@ -7,6 +7,7 @@ import TicketDetail from "./pages/TicketDetail";
 import CreateTicket from "./pages/CreateTicket";
 import EditTicket from "./pages/EditTicket";
 import SearchTickets from "./pages/SearchTickets";
+import Analytics from "./pages/Analytics";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/tickets/:id/edit" element={<EditTicket />} />
             <Route path="/create" element={<CreateTicket />} />
             <Route path="/search" element={<SearchTickets />} />
+            <Route path="/analytics" element={<Analytics />} />
           </Routes>
         </main>
       </div>
